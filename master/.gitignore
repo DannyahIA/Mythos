@@ -1,0 +1,28 @@
+# Godot
+# Ignore import cache and editor state
+.import/
+imported/
+*.import
+*.imported
+.godot/
+shader_cache/
+
+# Mono / C# build outputs
+*.mono
+mono_glue/
+
+# Exports and platform build artifacts
+export.cfg
+export_presets.cfg
+*.apk
+*.aab
+
+# OS/editor metadata
+.DS_Store
+.idea/
+.vscode/
+
+# Godot-generated temporary files
+*.import.meta
+# Godot 4+ specific ignores
+.godot/

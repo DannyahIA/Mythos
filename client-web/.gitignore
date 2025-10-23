@@ -1,0 +1,44 @@
+# Vite / SvelteKit
+node_modules/
+.svelte-kit/
+.svelte/
+.vite/
+dist/
+build/
+public/build/
+.env
+.env.*
+.DS_Store
+.vscode/
+.idea/
+*.log
+
+# Rollup / Vite cache
+.rpt2_cache/
+
+# Optional: ignore local editor / OS files
+# *.swp
+# Thumbs.db
+node_modules
+
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
